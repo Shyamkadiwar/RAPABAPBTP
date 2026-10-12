@@ -1,0 +1,22 @@
+CLASS zcl_shmtest DEFINITION
+  PUBLIC
+  FINAL
+  CREATE PUBLIC.
+
+  PUBLIC SECTION.
+    METHODS hello
+      RETURNING VALUE(rv_text) TYPE string.
+
+  PROTECTED SECTION.
+  PRIVATE SECTION.
+ENDCLASS.
+
+
+
+CLASS zcl_shmtest IMPLEMENTATION.
+
+  METHOD hello.
+    rv_text = 'Hello World'.
+  ENDMETHOD.
+
+ENDCLASS.
