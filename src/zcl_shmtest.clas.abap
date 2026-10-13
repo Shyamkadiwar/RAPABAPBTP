@@ -16,7 +16,7 @@ ENDCLASS.
 CLASS zcl_shmtest IMPLEMENTATION.
 
   METHOD hello.
-    rv_text = 'Hello Shyam'.
+    rv_text = 'Hello Shyam, I am merging this from another sys.'.
   ENDMETHOD.
 
 ENDCLASS.
